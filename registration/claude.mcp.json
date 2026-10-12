@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "everything": {
+      "type": "stdio",
+      "command": "C:\\path\\to\\everything-search-mcp\\.venv\\Scripts\\everything-mcp.exe",
+      "args": [],
+      "env": {}
+    }
+  }
+}

@@ -1,0 +1,34 @@
+# Secrets: the Everything HTTP username/password live here. Template: secrets.example
+config.local.json
+*.local.json
+.env
+.env.*
+secrets.json
+*.secret
+*.pem
+*.key
+
+# Machine-specific security notes (host IPs, firewall findings); kept local
+ops/
+
+# Logs
+*.log
+logs/
+
+# Python / tooling
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+build/
+dist/
+*.egg-info/
+
+# Editors / agents
+.serena/
+.vscode/
+.idea/
+*.bak
+*.bak-*

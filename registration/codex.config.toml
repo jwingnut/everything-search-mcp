@@ -1,0 +1,4 @@
+[mcp_servers.everything]
+command = 'C:\path\to\everything-search-mcp\.venv\Scripts\everything-mcp.exe'
+args = []
+startup_timeout_sec = 30

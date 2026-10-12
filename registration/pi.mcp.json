@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "everything": {
+      "command": "C:\\path\\to\\everything-search-mcp\\.venv\\Scripts\\everything-mcp.exe",
+      "description": "Instant Windows filename/path search (voidtools Everything)"
+    }
+  }
+}
