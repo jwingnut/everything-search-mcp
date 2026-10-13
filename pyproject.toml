@@ -3,7 +3,7 @@ name = "everything-mcp"
 version = "0.1.0"
 description = "MCP server for the local voidtools Everything HTTP search API"
 requires-python = ">=3.11"
-dependencies = ["mcp>=1.9,<2"]
+dependencies = ["mcp>=1.9"]
 
 [project.scripts]
 everything-mcp = "everything_mcp.server:main"

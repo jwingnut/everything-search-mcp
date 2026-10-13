@@ -7,7 +7,10 @@ import os
 from pathlib import Path
 from typing import Literal
 
-from mcp.server.fastmcp import FastMCP
+try:
+    from mcp.server.mcpserver import MCPServer  # mcp 2.x
+except ImportError:  # mcp 1.x
+    from mcp.server.fastmcp import FastMCP as MCPServer
 
 from .client import DEFAULT_CONFIG, EverythingClient, EverythingError, load_config
 
@@ -16,7 +19,7 @@ MAX_READ_BYTES = 1_048_576
 
 SortKey = Literal["name", "path", "size", "date_modified"]
 
-mcp = FastMCP(
+mcp = MCPServer(
     "everything",
     instructions=(
         "Instant filename/path search across every NTFS volume on this Windows machine "

@@ -199,8 +199,6 @@ See [`registration/README.md`](registration/README.md) for config snippets and h
 uv run pytest -q   # 5 live tests: drive the server over real MCP stdio against Everything
 ```
 
-The MCP SDK is pinned to `mcp<2`, because 2.x renamed `FastMCP`.
-
 ## License
 
 MIT. See [LICENSE](LICENSE).
